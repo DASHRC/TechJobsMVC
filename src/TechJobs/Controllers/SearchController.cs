@@ -13,7 +13,7 @@ namespace TechJobs.Controllers
             return View();
         }
 
-        public IActionResult Results(string searchType, string searchTerm)
+        public IActionResult Results(string searchType, string searchTerm) //two parameter intake, check
         {
             ViewBag.columns = ListController.columnChoices;
 
